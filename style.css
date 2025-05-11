@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.header-left a {
+    font-size: 50px;
+    text-decoration: none;
+}
+form input{
+    width: 554px;
+    height: 53px;
+    border-radius: 50px;
+}
+input{
+    border: none;
+}
+body{
+    
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    border-bottom: 2px solid white;
+}
+.picture nav {
+    margin: 100px 0;
+    
+}
+.picture{
+    background-image: url('imgs/Group\ 115.png');
+    background-size: cover;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0px -7px 0 0;
+    
+}
+nav a {
+    display: block;
+    padding: 0 10px;
+    color: #FFF;
+    font-size: 20px;
+    line-height: 60px;
+    text-decoration: none;
+}
+.another-header{
+    display: flex;
+    justify-content: center;
+}
+nav ul ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+nav ul li:hover > ul {
+    display:inherit;
+}
+nav ul ul li {
+    min-width:170px;
+    float:none;
+    display:list-item;
+    position: relative;
+}
+.where_will_you_go_next{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 55px;
+}
+ .where_will_you_go_next p{
+    color: white;
+    font-size: 30px;
+    width: 865px;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.cards{
+    display: flex;
+}
+
+.choose{
+   margin-top: 650px;
+
+}
+.slide{
+    margin: 0 10px;
+}
+
+.slider-container{
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  .slider-buttons button {
+    display: inline-block;
+    line-height: 40px;
+    width: 120px;
+    padding: 0 20px;
+    background-color: white;
+    border-radius: 40px;
+    margin-bottom: 50px;
+    height: 50px;
+    border: none;
+    text-decoration: none;
+    color: #222;
+    box-shadow: 0 0 20px #000000bb;
+    transition: .3s;
+    margin: 0 10px;
+
+
+
+}
+.slider-buttons{
+    display: flex;
+    justify-content: center;
+}
+h4{
+    text-align: center;
+}
+.autor{
+    display: flex;
+    margin-top: 29px;
+    
+    
+}
+.explore{
+    display: flex;
+}
+.card-explore{
+    height: 517px;
+    width: 370px;
+    margin: 40px 10px;
+    -webkit-box-shadow: -10px 7px 28px 22px rgba(0, 0, 0, 0.17);
+    -moz-box-shadow: -10px 7px 28px 22px rgba(0, 0, 0, 0.17);
+    box-shadow: -10px 7px 28px 22px rgba(0, 0, 0, 0.17);
+    border: 10px;
+}
+.card-explore p{
+    text-align: center;
+}
+.my_latest_blog{
+    display: flex;
+}
