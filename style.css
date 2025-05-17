@@ -165,3 +165,16 @@ h4{
 .my_latest_blog{
     display: flex;
 }
+.blog{
+    width: 771px;
+    display: flex;
+    height: 225px;
+    
+}
+.text{
+    position: relative;
+    top: 60%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+
+}
