@@ -45,8 +45,10 @@ header {
 }
 
 .search input {
-    width: 554px;
+    /* max-width: 554px; */
+    padding: 0 20px;
     height: 50px;
+    flex: 1;
     padding-left: 54px;
     border-radius: 50px;
 
@@ -95,6 +97,7 @@ header {
 .hero {
     background-image: url('imgs/Group\ 115.png');
     background-size: cover;
+    background-position: center;
 
 }
 
@@ -176,7 +179,7 @@ h3 {
 .choose {}
 
 .slide {
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
 .slider-container {
