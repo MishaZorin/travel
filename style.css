@@ -331,6 +331,9 @@ h5 {
     margin: auto; */
 
 }
+.right-cards{
+    margin-top: 20px;
+}
 
 .display {
     display: flex;
